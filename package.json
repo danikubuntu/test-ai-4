@@ -1,0 +1,8 @@
+{
+  "name": "portfolio-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio dimostrativo statico",
+  "scripts": {"start": "node server.js", "test": "node --test"},
+  "engines": {"node": ">=22 <23"}
+}

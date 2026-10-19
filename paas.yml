@@ -1,0 +1,11 @@
+api_version: 1
+builder: dockerfile
+build_context: .
+port: 3000
+database: none
+runtime:
+  outbound: false
+health_check:
+  path: /healthz
+  timeout: 90
+  interval: 3
